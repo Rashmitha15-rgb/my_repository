@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rashmitha's Portfolio</title>
+    <meta name="description" content="A premium portfolio showcasing my academic details, skills, and projects." />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Outfit:wght@400;600;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .project-image-placeholder img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+
+    <nav class="navbar">
+        <a href="#home" class="logo">Rashmitha</a>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#academics">Academics</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact" class="btn-primary-outline">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+
+    <main>
+        <section id="home" class="hero fade-in">
+            <div class="hero-content">
+                <span class="greeting">Hello, I'm</span>
+                <h1 class="name-title"><span class="gradient-text">Rashmitha</span></h1>
+                <h2 class="dynamic-roles">A <span class="role-text">Full Stack Developer Enthusiast</span><span
+                        class="cursor">|</span></h2>
+                <p class="hero-desc">Welcome to my digital portfolio. I specialize in building exceptional digital
+                    experiences, combining elegant design with robust engineering.</p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn-primary">View My Work</a>
+                    <a href="#academics" class="btn-secondary">My Background</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="academics" class="section-container fade-in">
+            <h2 class="section-title">Academic <span class="gradient-text">Details</span></h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <h3>Bachelor of Engineering in Computer Science</h3>
+                        <span class="timeline-date">2022 - 2026</span>
+                        <p class="institution">Srinivas Institute of Technology</p>
+                        <p class="details">Focused on Software Engineering, Full stack Development and AI. Currenlty
+                            persuing my final year of Engineering. CGPA: 8.5</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <h3>Pre-University</h3>
+                        <span class="timeline-date">2020 - 2022</span>
+                        <p class="institution">SDPT PU College Mandarthi, Udupi</p>
+                        <p class="details">Valedictorian</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <h3>High School Diploma</h3>
+                        <span class="timeline-date">2018 - 2020</span>
+                        <p class="institution">HVS GHS Kuchoor, Udupi</p>
+                        <p class="details">Cultural coordinator of the school.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section-container fade-in">
+            <h2 class="section-title">My <span class="gradient-text">Skills</span></h2>
+            <div class="skills-grid">
+                <div class="skill-category glass-card">
+                    <h3>Frontend</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">JavaScript (ES6+)</span>
+                        <span class="skill-tag">React.js</span>
+                        <span class="skill-tag">TailwindCSS</span>
+                    </div>
+                </div>
+                <div class="skill-category glass-card">
+                    <h3>Backend</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Express</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">MongoDB</span>
+                    </div>
+                </div>
+                <div class="skill-category glass-card">
+                    <h3>Tools</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Git & GitHub</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">AWS</span>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section-container fade-in">
+            <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+            <div class="projects-grid">
+                <article class="project-card glass-card">
+                    <div class="project-image-placeholder gradient-bg-1">
+                        <img src="deviceinfo-hub.jpg" alt="DeviceInfo Hub Application Screenshot">
+                    </div>
+                    <div class="project-info">
+                        <h3>DeviceInfo Hub</h3>
+                        <p>A mobile application that provides information about the device and its specifications.</p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Typescript</span>
+
+                        </div>
+                        <a href="#" class="project-link">View Project →</a>
+                    </div>
+                </article>
+                <article class="project-card glass-card">
+                    <div class="project-image-placeholder gradient-bg-2">
+                        <img src="region.avif" alt="Region resolve Application Screenshot">
+                    </div>
+                    <div class="project-info">
+                        <h3>Region Resolve</h3>
+                        <p>An application that helps citizens to resolve their regional problems by posting the issues
+                            directly to the respected authorities.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>SQL</span>
+
+                        </div>
+                        <a href="#" class="project-link">View Project →</a>
+                    </div>
+                </article>
+                <article class="project-card glass-card">
+                    <div class="project-image-placeholder gradient-bg-3">
+                        <img src="talent.webp" alt="TalentForge Application Screenshot">
+                    </div>
+                    <div class="project-info">
+                        <h3>TalentForge</h3>
+                        <p>A platform that helps students to prepare for the jobs and placement by analyzing their
+                            current skills and academic performance.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Python</span>
+                        </div>
+                        <a href="#" class="project-link">View Project →</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact" class="footer">
+        <div class="footer-content">
+            <h2 class="footer-title">Let's <span class="gradient-text">Connect</span></h2>
+            <p>I'm always open to discussing new projects, creative ideas or opportunities to be part of your visions.
+            </p>
+            <div class="social-links">
+                <a href="http://linkedin.com/in/rashmitha-poojary-429148358">LinkedIn</a>
+                <a href="https://github.com/Rashmitha15-rgb">GitHub</a>
+                <a href="mailto:rashmithapoojari3@gmail.com">Email</a>
+            </div>
+            <p class="copyright">© 2026 Rashmitha Poojary. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
